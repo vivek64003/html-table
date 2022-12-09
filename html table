@@ -1,0 +1,15 @@
+<html>
+<body>
+<h2>table while loop</h2>
+
+<p id="demo"></p>
+<script>
+let text = "";
+let i = 1;
+while (i < 11) {
+  document.write(2 + "*" + i +"="+( i*2)+"<br>);
+i++;}
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
